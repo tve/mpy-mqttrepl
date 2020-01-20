@@ -8,7 +8,7 @@ import board
 #import webrepl
 #webrepl.start()
 
-if True:
+if False:
     import network
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
